@@ -6,7 +6,7 @@ module FormsLab
     # code other routes/actions here
     
     get '/' do 
-      erb :pirates/index
+      erb :"pirates/index"
     end 
     
     post '/pirates' do 
